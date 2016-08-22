@@ -6,7 +6,7 @@ class fact
      Scanner s=new Scanner(System.in);
      int n=s.nextInt();
      int fact=1;
-     for(int i=0;i<n;i++)
+     for(int i=0;i<=n;i++)
      fact=fact*i;
      System.out.println(fact);
   }
